@@ -30,6 +30,10 @@ const submitted=()=>{
          <TextInput style={styles.textArea}
         label="Confirm Password"
       />
+        
+            <TextInput style={styles.textArea}
+        label="Mobile No"
+      />
     <Button mode="contained" onPress={()=>submitted()} style={{width:200, alignSelf:'center',backgroundColor:'orange'}}>
       Log In
     </Button>
